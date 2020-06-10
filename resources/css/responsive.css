@@ -66,7 +66,7 @@
 }
 @media only screen and (max-width: 768px){
     header{
-        height: 85vh;
+        height: 95vh;
     }
     .little-description{
         width: 100%;
@@ -88,6 +88,9 @@
 @media only screen and (max-width: 420px){
     header{
         height: 80vh;
+    }
+    .hero-text-box{
+        width: 90%;
     }
 }
 @media only screen and (max-width: 350px){
