@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="This is my Portfolio. I am a Web Developer and can design awesome websites which are responsive for all devices. ">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio  |   Iffat Mahmud Pantha</title>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/img/favicon.png">
+  
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- VENDORS FILES -->
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="vendors/css/grid.css">
+    
+    <!-- RESOURCES FILES -->
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/responsive.css">
+</head>
+<body>
+   
+    <!-- Start Header Section-->
+
+    <header id="home">
+        <nav>
+            <div class="row">
+                <a href="#home">
+                  <!--  <img src="resources/img/logo.png" alt="Cuda" class="logo">-->
+                  <div class="logo">Iffat Mahmud Pantha</div>
+                </a>
+                
+                <ul class="main-nav">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <span style="color: #fff;" onclick="openNav()">&#9776;</span>
+                    <div id="myNav" class="overlay">
+                        <a href=" javascript:void(0)" onclick="closeNav()" class="closebtn">&times;</a>
+                        <div class="overlay-content">
+                            <a onclick="closeNav()" href="#home">Home</a>
+                            <a onclick="closeNav()" href="#about">About</a>
+                            <a onclick="closeNav()" href="#services">Services</a>
+                            <a onclick="closeNav()" href="#skills">Skills</a>
+                            <a onclick="closeNav()" href="#portfolio">Projects</a>
+                        
+                            <a onclick="closeNav()" href="#contact">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+        <div class="row">
+            <div class="hero-text-box">
+                <h1>Hi there! I am a fresh graduate and want to establish myself in the web development field and can design awesome websites which are responsive for all devices. </h1>
+                <a href="#contact" class="btn btn-hero">Work with me!</a>
+            </div>
+        </div>
+    </header>
+
+    <!--End Header Section-->
+
+        <!--Start About Section-->
+        <section class="team-section js--team-section" id="about" >
+            <div class="row">
+                <h2>About Me</h2>
+                <p class="little-description">
+                    Personal and Educational Information
+                </p>
+            </div>
+            <div class="row">
+                <div class="col span_1_of_2 box">
+                    <img src="resources/img/aboutpic.jpg" alt="Pantho" class="team-member">
+                    <h3>Iffat Mahmud Pantha</h3>
+                    <span class="role1">
+                        Computer Engineer
+                    </span>
+                    <p class="address">
+                        <b>Date of Birth : </b> 14th September, 1995 <br>
+                         <b> Religion :</b> Islam<br>
+                         <b>Nationality :</b> Bangladeshi <br>
+                        <b> Hobbies :</b> Travelling, Watcing Movies, Music
+    
+                    </p>
+                    <div class="social-link">
+                        <ul>
+                            <li><a href="https://www.facebook.com/iffatmahmud.pantho"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://twitter.com/iffatpantho"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/iffat-mahmud-pantha-46a32a159"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://github.com/IffatMahmudPantho"><i class="fab fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col span_1_of_2 box about">
+                    <p class="bio">Fresh Computer Engineer looking for a challenging role in a reputed organization to establish a bright career by giving the best effort and learning new things every single day and also for the growth of the organization. I am Passionate to work, self-motivated, ambitious and have the ability to work under pressure. I Like challenges and have a good skill to fulfill the target on time.</p>
+                    <div class="education">
+                        <span class="role">BSc in Computer Science & Engineering </span>
+                        <p class="institution">NORTH SOUTH UNIVERSITY</p>
+                        <div class="district">Dhaka, Bangladesh</div>
+                    </div>
+                    <div class="education">
+                        <span class="role">HIGHER SECONDARY SCHOOL CERTIFICATE (HSC) </span>
+                        <p class="institution">METROPOLITAN COLLEGE</p>
+                        <div class="district">Dhaka, Bangladesh</div>
+                    </div>
+                    <div class="education">
+                        <span class="role">SECONDARY SCHOOL CERTIFICATE (SSC)</span>
+                        <p class="institution">Motijheel govt. boys' high school</p>
+                        <div class="district">Dhaka, Bangladesh</div>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+    
+        <!--End About Section-->
+
+     <!--Start Services Section-->
+
+    <section class="services-section js--services-section" id="services">
+        <div class="row">
+            <h2>Services </h2>
+            <p class="little-description">I am working with both individuals and businesses from all over the globe to create awesome professional websites and applications.</p>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_4 box">
+                <img src="resources/img/flag.png" alt="Flag" class="services-icon">
+                <h3>Branding</h3>
+                <p class="little-description">Make the quality of the website top branded.</p>
+            </div>
+            <div class="col span_1_of_4 box">
+                <img src="resources/img/crayon.png" alt="Pencil" class="services-icon">
+                <h3>Design</h3>
+                <p class="little-description">Designing the app exactly the way it was premised.  </p>
+            </div>
+            <div class="col span_1_of_4 box">
+                <img src="resources/img/gears.png" alt="Gears" class="services-icon">
+                <h3>Development</h3>
+                <p class="little-description">Development process must be in professional way, so that it can be reusable for the developer who will work on it afterwards.</p>
+            </div>
+            <div class="col span_1_of_4 box">
+                <img src="resources/img/rocket.png" alt="Rocket" class="services-icon">
+                <h3>Project Delivery</h3>
+                <p class="little-description">Required app must be delivered within the deadline. Ensures the perfection and fast delivery at a same time.</p>
+            </div>
+            
+        </div>
+    </section>
+    <!--End Services Section-->
+
+
+    <!--Start Skills Section-->
+
+    <section class="skill-section" id="skills" >
+        <div class="row">
+            <h2>My Skills</h2>
+            <p class="little-description">Expert but not limited to</p>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_4 box">
+                <svg class="radial-progress web-design" data-percentage="90" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">90%</text>
+                </svg>
+                <h3>WEB DESIGN</h3>
+            </div>
+            <div class="col span_1_of_4 box">
+                <svg class="radial-progress html-css" data-percentage="85" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">85%</text>
+                </svg>
+                <h3>HTML/CSS</h3>
+            </div>
+            <div class="col span_1_of_4 box">
+                <svg class="radial-progress php" data-percentage="70" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">70%</text>
+                </svg>
+                <h3>PHP</h3>
+            </div>
+            <div class="col span_1_of_4 box">
+                <svg class="radial-progress mysql" data-percentage="80" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">80%</text>
+                </svg>
+                <h3>MYSQL</h3>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!--End Skills Section-->
+
+
+    <!--Start Portfolio Section-->
+    <section class="portfolio-section" id="portfolio">
+        <div class="row">
+            <h2>My Projects</h2>
+            <p class="little-description">
+                Some of my best projects are given here
+            </p>
+        </div>
+        <div class="row">
+            <div class="portfolio-filter">
+                <button type="button" data-filter="all">All</button>
+                <button type="button" data-filter=".web">Web</button>
+                <button type="button" data-filter=".apps">Apps</button>
+                <button type="button" data-filter=".hardware">Hardwrare</button>
+            </div>
+        </div>
+        <div class="row container">
+            <div class="col span_1_of_2 mix web box">
+                <img src="resources/img/myparcel.png" alt="My Parcel" class="portfolio-image">
+                <h4>MyParcel Online Courier Service</h4>
+            </div>
+            <div class="col span_1_of_2 mix apps  box">
+                <img src="resources/img/advancedapp.png" alt="Advanced Inpatient Communication System App" class="portfolio-image">
+                <h4>Advanced Inpatient Communication System</h4>
+            </div>
+            <div class="col span_1_of_2 mix web box">
+                <img src="resources/img/ovs.png" alt="OVS" class="portfolio-image">
+                <h4>Online Voting System (OVS)</h4>
+            </div>
+            <div class="col span_1_of_2 mix apps hardware box">
+                <img src="resources/img/advancedhardware.png" alt="Advanced Inpatient Communication System Hardware" class="portfolio-image">
+                <h4>Advanced Inpatient Communication System (Hardware)</h4>
+            </div>
+            <div class="col span_1_of_2 mix hardware box">
+                <img src="resources/img/LightSensor.png" alt="Light Sensor" class="portfolio-image">
+                <h4>Light Sensor</h4>
+            </div>
+            
+            
+        </div>
+        
+    </section>
+
+
+
+    <!--End Portfolio Section-->
+    
+    <!--Star Contact Section-->
+    <section class="contact-section" id="contact">
+        <div class="row">
+            <h2>GET IN TOUCH</h2>
+            <p class="little-description">
+                <i class="fas fa-home"></i>  Block H, Road 7/1, House No. 10, Banasree, Dhaka- 1219 <br>
+                <i class="fas fa-phone"></i>    +8801647676885 <br>
+                 <i class="far fa-envelope"></i>  iffatiffat4@gmail.com
+            </p>
+        </div>
+        <div class="row">
+            <form action="https://formspree.io/iffatiffat4@gmail.com" method="POST">
+                <div class="row">
+                    <div class="col span_1_of_2">
+                        <input type="text" name="Name" placeholder="Your Name *" required>
+                    </div>
+                    <div class="col span_1_of_2">
+                        <input type="email" name="Email" placeholder="Your Email *" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <textarea name="Message"  cols="30" rows="7" placeholder="Your Message *" required></textarea>
+                </div>
+                <div class="row">
+                    <input type="submit" value="SEND MESSAGE" class="btn btn-submit">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!--End Contact Section-->
+
+     <!--Start Footer Section-->
+     <footer class="footer-section">
+        <div class="row">
+            <ul>
+                <li><a href="https://www.facebook.com/iffatmahmud.pantho">Facebook</a></li>
+                <li><a href="https://twitter.com/iffatpantho">Twitter</a></li>
+                
+                <li><a href="https://www.linkedin.com/in/iffat-mahmud-pantha-46a32a159">Linkedin</a></li>
+                <li><a href="https://github.com/IffatMahmudPantho">Github</a></li>
+            </ul>
+        </div>
+     </footer>
+     <footer>
+        
+            <div class="copyright">
+                &copy; Copyright 2020. All Right Reserved | Designed by Iffat Mahmud Pantha
+           
+        </div>
+     </footer>
+
+      <!--End Footer Section-->
+
+    
+
+
+  
+   
+
+   
+   <!-- JS SCRIPTS -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="vendors/js/html5shiv.min.js"></script>
+   <script src="vendors/js/respond.min.js"></script>
+   <script src="vendors/js/selectivizr-min.js"></script>
+   <script src="vendors/js/jquery.waypoints.min.js"></script>
+   <script src="vendors/js/animated-circle.js" ></script>
+   <script src="vendors/js/mixitup.min.js"></script>
+   
+   <script src="resources/js/main.js"></script>
+    
+</body>
+</html>
